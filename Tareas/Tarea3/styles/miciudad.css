@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containerredes {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.item {
+
+    width: auto;
+    height: auto;
+
+}
+
+.containerVID {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #dda200;
+
+}
+
+.itemVID {
+
+    width: auto;
+    height: auto;
+
+}
+
+body { 
+    background-color: rgb(240, 99, 6);
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+h2{
+    font-family: sans-serif;
+}
+
+h3 {
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    border-radius: 200px;
+}
+
+.titulo {
+    background-color: hsl(44, 100%, 43%);
+    color: azure;
+    padding: 10px;
+    border: 3px solid #fff019;
+}
+
+.tituloDeTabla {
+    color: azure;
+}
+
+a {
+    font-family: 'Courier New', Courier, monospace;
+    color: #dba100;
+}
+
