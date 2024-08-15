@@ -1,0 +1,79 @@
+/* Configuración básica */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f08080; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #20b2aa; 
+    padding: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul.language {
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+aside {
+    flex: 1;
+    margin-right: 20px;
+    text-align: center;
+}
+
+article {
+    flex: 2;
+}
+
+.placeholder {
+    background-color: #ccc;
+    text-align: center;
+    line-height: 200px;
+    color: #666;
+    font-size: 1.5em;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+.aside-placeholder {
+    height: 400px;
+    line-height: 400px;
+}
+
+.article-placeholder {
+    height: 200px;
+    line-height: 200px;
+}
+
+p {
+    margin: 10px 0;
+}
